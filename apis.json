@@ -1,0 +1,52 @@
+{
+    "name": "Apigility",
+    "description": "The world's easiest way to create high-quality APIs.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/18593-apigility.jpg",
+    "tags": [
+        "api service provider",
+        "cloud",
+        "deployment",
+        "hal",
+        "have api",
+        "hypermedia"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/apigility\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Apigility",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/18593-apigility.jpg",
+            "humanURL": "https:\/\/apigility.org\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apigility-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apigility-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/Apigility"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/zfcampus"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/apigility.org\/"
+        }
+    ]
+}

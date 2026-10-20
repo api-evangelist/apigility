@@ -1,23 +1,65 @@
 aid: apigility
+
 name: Zend
-description: 'Zend is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog) and
-  added to the network as a stub for full-pipeline profiling.'
+
+description: 'Zend Apigility is an open-source API builder framework originally developed by Zend and now part of the Laminas project. It provides tools to create high‑quality, versioned RESTful APIs in PHP, with support for content negotiation, HAL, and API‑centric architecture. The platform includes documentation, tutorials, and a community forum to help developers build and maintain APIs efficiently.'
+
 url: https://raw.githubusercontent.com/api-evangelist/apigility/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-20 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-20'
+
 modified: '2026-10-20'
+
 tags:
 - Company
-apis: []
+- API
+- PHP
+- OpenSource
+- Framework
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/apigility-hosts.yml
+- type: SDKs
+  url: packages/apigility-packages.yml
+- type: Packages
+  url: packages/apigility-packages.yml
+- type: DomainSecurity
+  url: security/apigility-domain-security.yml
 - type: Website
   url: https://apigility.org/
+- type: Documentation
+  url: https://apigility.org/documentation.html
+- type: GettingStarted
+  url: https://apigility.org/documentation/intro/getting-started.html
+- type: Support
+  url: https://apigility.org/contacts.html
+- type: Blog
+  url: https://apigility.org/blog
+- type: GitHubOrganization
+  url: https://github.com/zfcampus
+- type: Pricing
+  url: https://apigility.org/download.html
+
+apis: []
+x-enrichment:
+  date: '2026-10-20'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

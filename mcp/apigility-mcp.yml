@@ -1,0 +1,7 @@
+generated: '2026-10-20'
+method: none
+source: none
+notes: No MCP server discovered for Apigility.
+deployment:
+  mode: none
+  verified: derived
